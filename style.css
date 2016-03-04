@@ -1,0 +1,83 @@
+/*
+Theme Name: hokindo
+Theme URI: http://argiacyber.com
+Author: mrijalul
+Author URI: http://argiacyber.com
+Description: child theme for hokindo website
+Version: 1.0.8
+Template: mts_onepage
+*/
+@import url("../mts_onepage/style.css");
+
+.menu li, .menu li a
+{
+    color: #4d4d4d !important;
+}
+.main-header {
+    border-bottom: 4px solid #ff7900 !important;
+}
+.ajax-pagination .paginate-link
+{
+    color: #fff;
+    border: 1px solid #64ae11;
+    background-color: #64ae11;
+}
+.image-logo img
+{
+    margin-left: 100%;
+}
+#navigation ul.primary-menu > li > a
+{
+    padding: 21px 15px 23px;
+}
+.homepage-section .inside
+{
+    padding: 4em 0 6em 0;
+}
+.contact_section h6
+{
+    color: #fff;
+}
+.contact_section span
+{
+    color: #fff;
+}
+.fa-map-marker:before
+{
+    color: #fff;
+}
+.fa-phone:before
+{
+    color: #fff;
+}
+.fa-envelope:before
+{
+    color: #fff;
+}
+.social_icons a
+{
+    border: 2px solid #fff;
+    color: #fff;
+}
+.copyrights > span
+{
+    color: #fff;
+}
+.copyrights a
+{
+    color: #fff !important;
+}
+.top a.toplink
+{
+    border: 2px solid #fff;
+}
+footer .footer-menu a {
+    color: #4d4d4d;
+}
+
+@media screen and (max-width: 728px){
+    .image-logo img
+    {
+        margin-left: 0;
+    }
+}
